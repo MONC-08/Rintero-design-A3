@@ -58,8 +58,9 @@
                 </ul>
             </div>
             <div class="navbar-end hidden md:flex">
-                <a class="btn bg-[#ABEF5F]">Book Consult
-                    <i class="fa-solid fa-arrow-right bg-[#1C1C1C] text-white rounded-full p-[3px] -rotate-45 "></i>
+                <a class="btn bg-[#ABEF5F] rounded-full">Book Consult
+                    <i class="fa-solid fa-arrow-right bg-[#1C1C1C] text-white rounded-full p-[3px] -rotate-45 flex items-center justify-center"
+                        id="arrow"></i>
                 </a>
 
             </div>
@@ -192,7 +193,7 @@
         </section>
 
         <!-- discuss section -->
-        <section class="container mx-auto border-2 border-blue-600 px-4 md:p-14 space-y-5" id="discussion-box">
+        <section class="container mx-auto border-2 border-blue-600 px-4 py-7 md:p-14 space-y-5" id="discussion-box">
             <!-- text content -->
             <div class="text-center space-y-2">
                 <button class="btn bg-green-200 shadow-inner rounded-full">
@@ -236,10 +237,38 @@
 
         </section>
 
-
     </main>
 
-    <footer></footer>
+    <footer class="bg-[#1C1C1C] text-center py-10">
+
+        <div class="p-5 container mx-auto text-center">
+            <a class="btn btn-ghost text-xl md:text-2xl font-bold text-[#E9E9E9] ">
+                <i class="fa-solid fa-arrow-right text-base bg-[#ABEF5F] text-gray-600 -rotate-45 flex items-center justify-center"
+                    id="arrow"></i>
+                Rinterio
+            </a>
+            <p class="text-[#A0A0A0]">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+                wood, sleek metal accents.
+            </p>
+
+            <ul class="flex flex-col md:flex-row items-center justify-center gap-10 py-6">
+                <li class="text-[#A0A0A0]">Home</li>
+                <li class="text-[#A0A0A0]">Services</li>
+                <li class="text-[#A0A0A0]">Portfolio</li>
+                <li class="text-[#A0A0A0]">Blogs</li>
+                <li class="text-[#A0A0A0]">Contact Us</li>
+            </ul>
+
+            <div class="">
+                <a class="btn bg-[#ABEF5F] rounded-full">Book Consult
+                    <i class="fa-solid fa-arrow-right bg-[#1C1C1C] text-white rounded-full p-[3px] -rotate-45 flex items-center justify-center"
+                        id="arrow"></i>
+                </a>
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>
