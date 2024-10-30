@@ -8,6 +8,12 @@
     font-style: normal;
 }
 
-.btn-color {
-    background-color: #ABEF5F;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-color {
+    color: rgba(73, 73, 73, 0.7);
 }

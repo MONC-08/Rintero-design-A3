@@ -19,7 +19,6 @@
 <body class="font-manrope">
     <header class="container mx-auto border-2 border-indigo-600 bg-[#FFFFFF] relative">
         <!-- navbar -->
-
         <nav class="navbar bg-base-100">
             <div class="navbar-start ">
                 <div class="dropdown absolute right-2">
@@ -41,18 +40,18 @@
                     </ul>
                 </div>
 
-                <a class="btn btn-ghost text-xl">
+                <a class="btn btn-ghost text-xl font-bold">
                     <i class="fa-solid fa-arrow-right bg-[#ABEF5F] text-gray-500 rounded-full p-[3px] -rotate-45 "></i>
                     Rinterio
                 </a>
             </div>
-            <div class="navbar-center hidden lg:flex">
+            <div class="navbar-center hidden md:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li class="hover:text-[#494949]"><a>Home</a></li>
-                    <li class="hover:text-[#494949]"><a>Service</a></li>
-                    <li class="hover:text-[#494949]"><a>Portfolio</a></li>
-                    <li class="hover:text-[#494949]"><a>Blogs</a></li>
-                    <li class="hover:text-[#494949]"><a>Contact Us</a></li>
+                    <li class="hover:font-semibold"><a>Home</a></li>
+                    <li class="hover:font-semibold"><a>Service</a></li>
+                    <li class="hover:font-semibold"><a>Portfolio</a></li>
+                    <li class="hover:font-semibold"><a>Blogs</a></li>
+                    <li class="hover:font-semibold"><a>Contact Us</a></li>
                 </ul>
             </div>
             <div class="navbar-end hidden md:flex">
@@ -63,8 +62,29 @@
             </div>
         </nav>
 
-
         <!-- banner -->
+        <section class="hero bg-base-200 ">
+            <div class="hero-content text-center space-y-2 flex flex-col">
+                <!-- banner image -->
+                <div class="w-9/12 md:w-auto">
+                    <img class="w-full" src="./assets/banner.png" alt="">
+                </div>
+                <!-- banner content -->
+                <div class="lg:p-10 ">
+                    <h1 class="text-3xl md:text-5xl font-bold">A barn house of this design has a striking appearance
+                    </h1>
+                    <p class="py-6 lg:w-[900px] mx-auto text-gray-500">
+                        The barn house captivates with its blend of rustic charm and modern sophistication,
+                        featuring weathered wood, sleek metal accents, and large windows that flood the space with
+                        natural light.
+                    </p>
+                    <button class="btn bg-[#ABEF5F] w-full md:w-[150px]">View Details
+                        <i class="fa-solid fa-arrow-right bg-green-400 text-white rounded-full p-[3px] -rotate-45 "></i>
+                    </button>
+
+                </div>
+            </div>
+        </section>
     </header>
 
     <main></main>
