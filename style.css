@@ -14,6 +14,16 @@ body {
     box-sizing: border-box;
 }
 
-.text-color {
-    color: rgba(73, 73, 73, 0.7);
+#arrow {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#discussion-box {
+    background-image: url('./assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
